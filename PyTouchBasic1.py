@@ -1,9 +1,4 @@
 import torch
-
-#리스트로 텐서를 생성함.
-data = [[1,2],[3,4]]
-x_data = torch.tensor(data)
-
 #넘파이 배열로부터 텐서를 생성함.
 import numpy as np
 np_array = np.array(data)
